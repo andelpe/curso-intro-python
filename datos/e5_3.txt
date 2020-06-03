@@ -1,0 +1,8 @@
+# First line is the title
+
+# Second is just a comment to say previous line was empty
+
+dato1  12  2   5
+dato2   5  3  -3
+dato3  21  5   2
+dato4  -4  2   1

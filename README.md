@@ -12,7 +12,8 @@ Junio, 2020
 
 Este se un curso...
 
-Binder...
+Para lanzar este curso en Binder: 
+[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/andelpe/curso-intro-python/master)
 
 GitHub
 

@@ -1,0 +1,7 @@
+name: curso-intro-python
+channels:
+  - conda-forge
+dependencies:
+  - python
+  - matplotlib
+  - pytest

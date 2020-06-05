@@ -85,8 +85,25 @@ Existen muchos más detalles en: https://jupyterlab.readthedocs.io/
 
 
 ### Usar un servicio en la nube.
-Al principio de este mismo _README_ se incluye un link para lanzar este repositorio en la plataforma _Binder_, y 
-esta es la opción _online_ recomendada. Sin embargo, algunas otras soluciones son posibles.
+
+Sugerimos usar alguno de los 3 servicios siguientes:
+
+- **Binder**: 
+  - _Ventajas_: no requiere creación de cuenta, ofrece un interfaz JupyterLab estándar, el directorio de trabajo por defecto es el correcto.
+  - _Desventajas_: para conservar el trabajo propio, se requiere descargar los ficheros manualmente en cada sesión.
+
+
+- **Microsoft Azure notebooks**:
+  - _Ventajas_: Ofrece un interfaz JupyterLab estándar, el directorio de trabajo por defecto es el correcto, los cambios realizados se conservan en el proyecto personal.
+  - _Desventajas_: requiere una cuenta Microsoft, y activar el servicio (gratuito) de Azure Notebooks.
+
+
+- **Google Colab**:
+  - _Ventajas_: al enlazarlo con Google Drive, los cambios realizados se conservan en el espacio del usuario.
+  - _Desventajas_: el interfaz no es el estándar, requiere una cuenta Google, activar el servicio (gratuito) Colab. Además, requiere realizar ciertas tareas manuales para montar Drive, y para cambiar el directorio de trabajo (en cada sesión).
+  
+  
+Los detalles sobre cada uno son:
 
 - **Binder**
 
@@ -98,9 +115,18 @@ esta es la opción _online_ recomendada. Sin embargo, algunas otras soluciones s
       - Guardar como notebook (`.ipynb` file): _File > Download_
       - O bien como script (`.py`): _File > Export Notebook as > Executable Script_
       - NOTA: Podéis seleccionar varios notebooks y descargarlos todos a la vez.
-      
-      
+          
   - NOTA: Una sesión inactiva durante varios minutos será **automáticamente cerrada**.
+
+
+- **Microsoft Azure Notebooks**
+
+  - Requiere utilizar un a cuenta de Microsoft (outlook, hotmail, etc.), y darse de alta en el servicio gratuito de Azure Notebooks: https://notebooks.azure.com
+  
+  - Una vez activado, en la página de la cuenta personal (https://notebooks.azure.com/<usuario>) se puede crear un nuevo proyecto con el curso, usando la opción _Upload GitHub Repo_, con el enlace al curso en GitHub.
+  
+  - En el proyecto creado, elegir cualquier Notebook, pinchar con el botón derecho del ratón, y elegir: _Run in JupyterLab_.
+    
   
 - **Google Colab**:
 
@@ -123,8 +149,5 @@ esta es la opción _online_ recomendada. Sin embargo, algunas otras soluciones s
     - Finalmente, hay que cambiar el directorio de trabajo al del repositorio en Drive.
       - Para ello, refrescar el árbol de carpetas (izquierda), buscar el directorio del repositorio (bajo _drive_), pinchar con el botón derecho y elegir _Copy path_. 
       - Ir a una celda y ejecutar: `%cd "<path-copiado>"` Nota: Las comillas son importantes!
-  
-Existen más opciones: _CoCalc_, o _Azure notebooks_.
-
 
 

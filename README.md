@@ -123,7 +123,7 @@ Los detalles sobre cada uno son:
 
   - Requiere utilizar un a cuenta de Microsoft (outlook, hotmail, etc.), y darse de alta en el servicio gratuito de Azure Notebooks: https://notebooks.azure.com
   
-  - Una vez activado, en la página de la cuenta personal (https://notebooks.azure.com/<usuario>) se puede crear un nuevo proyecto con el curso, usando la opción _Upload GitHub Repo_, con el enlace al curso en GitHub.
+  - Una vez activado, en la página de la cuenta personal (https://notebooks.azure.com/<usuario>) se puede crear un nuevo proyecto con el curso. Para ello, hay que ir a la sección _My projects_ (ubicada en la parte superior de la ventana), pinchar sobre _Upload GitHub Repo_ y rellenar el campo _Github repository_ con el enlace al curso en GitHub.
   
   - En el proyecto creado, elegir cualquier Notebook, pinchar con el botón derecho del ratón, y elegir: _Run in JupyterLab_.
     

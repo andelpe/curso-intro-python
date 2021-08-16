@@ -1,9 +1,9 @@
-# Curso de Introducción a la Programación en Python
+# Curso de Programación en Python
 
 <font size=4>
     
 Curso de formación interna, CIEMAT. <br/>
-Madrid, Junio de 2020
+Madrid, Octubre de 2021
 
 Antonio Delgado Peris
 </font>

@@ -1,14 +1,17 @@
 # Sample module 'samplemod'
 
 """
-Módulo de ejemplo para el Curso de Introducción a la Programación en Python
+Modulo de ejemplo para el Curso de Programacion en Python
 
-Ejemplifica como usar un fichero .py tanto como módulo como como script.
+Ejemplifica como usar un fichero .py tanto como modulo como como script.
 """
 
 print('Loading...')
 
 def double(x):
+    """
+    Dobla el valor pasado
+    """
     return 2*x
 
 if __name__ == "__main__":

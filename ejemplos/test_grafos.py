@@ -12,7 +12,6 @@ d = {
 objetos = []
 for c in grafos.Grafo, grafos.DictGrafo, grafos.GrafoDict:
     objetos.append(c(d.copy()))
-
     
 # Este test se correrá una vez con cada objeto de 'objetos'
 @pytest.mark.parametrize('g', objetos)

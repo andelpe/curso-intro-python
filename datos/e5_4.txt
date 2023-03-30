@@ -1,7 +1,8 @@
-# Fichero por columnas
+# First line is the title
 
-  dato1   dato2   dato3   dato4
-#-------------------------------
-    12        5      21      -4
-     2        3       5       2
-     5       -3       2       1
+# Second is just a comment to say previous line was empty
+
+dato1  12  2   5
+dato2   5  3  -3
+dato3  21  5   2
+dato4  -4  2   1
